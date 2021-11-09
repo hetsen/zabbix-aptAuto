@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Usage is ezpz
+#
+# Just run dis!
+#
+# wget https://github.com/hetsen/zabbix-aptAuto && cd zabbix-aptAuto && chmod +x && ./zabbix-aptAuto.sh
+#
+#
+
 echo 'Cloning zabbix-apt'
 git clone https://github.com/theranger/zabbix-apt
 echo 'Copying 02peridic to /etc/apt/apt.conf.d/'
