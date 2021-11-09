@@ -4,7 +4,7 @@
 #
 # Just run dis!
 #
-# wget https://github.com/hetsen/zabbix-aptAuto && cd zabbix-aptAuto && chmod +x && ./zabbix-aptAuto.sh
+# git clone https://github.com/hetsen/zabbix-aptAuto && cd zabbix-aptAuto && chmod +x && ./zabbix-aptAuto.sh
 #
 #
 
