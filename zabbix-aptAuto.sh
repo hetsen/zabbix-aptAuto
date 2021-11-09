@@ -13,7 +13,7 @@ else
   echo '/etc/zabbix/zabbix_agentd.conf.d/ it is'
   cp zabbix-apt/zabbix_agentd.d/apt.conf /etc/zabbix/zabbix_agentd.conf.d/
 fi
-echo 'Adding Timeout=30 to /etc/zabbix/zabbix/agentd.conf'
+echo 'Adding Timeout=30 to /etc/zabbix/zabbix_agentd.conf'
 sed -i 's/# Timeout=3/Timeout=30/' /etc/zabbix/zabbix_agentd.conf
 echo 'Restarting zabbix-agent'
 service zabbix-agent restart
